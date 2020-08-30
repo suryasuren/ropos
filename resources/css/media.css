@@ -1,0 +1,255 @@
+
+@media only screen and (max-width: 1220px) {
+    .main-nav li {
+		font-size: 90%;
+	}
+
+	.main-nav {
+		float: right;
+	}
+
+	.one {
+		display: flex;
+		flex-direction: column;
+	}
+    .text-box {
+    	font-size: 80%;
+    	top: 40%;
+    }
+
+    .what-do-you {
+    	font-size: 90%;
+    }
+
+    .mobile-cover img {
+    	padding-right: 0px;
+    	height: 280px;
+    	margin-right: 10%;
+    	width: auto;
+    	flex-direction: column;
+    }
+
+    .why-us {
+    	font-size: 90%;
+    }
+	.mobiles img {
+		height: 110px;
+		width: auto;
+		margin-left: 20px;
+	}
+
+	.mobiles h5 {
+		font-size: 75%;
+	}
+	.mobiles h2 {
+		font-size: 100%;
+	}
+
+	.testimonial h1 {
+		font-size: 120%;
+	}
+
+	.testimonial blockquote,
+	.testimonial cite {
+		margin: 2% 1%;
+		font-size: 90%;
+	}
+	.testimonial img {
+		height: 50px;
+		width: auto;
+		margin-left: 20px;
+	}
+}
+
+@media only screen and (max-width: 1025px) {
+	.main-nav li {
+		font-size: 80%;
+	}
+
+	.main-nav {
+		float: right;
+	}
+
+	.one {
+		display: flex;
+		flex-direction: column;
+	}
+    .text-box {
+    	font-size: 70%;
+    	top: 40%;
+    }
+
+    .what-do-you {
+    	font-size: 80%;
+    }
+
+    .mobile-cover img {
+    	padding-right: 0px;
+    	height: 220px;
+    	margin-right: 10%;
+    	width: auto;
+    	flex-direction: column;
+    }
+
+    .why-us {
+    	font-size: 90%;
+    }
+	.mobiles img {
+		height: 110px;
+		width: auto;
+		margin-left: 20px;
+	}
+
+	.mobiles h5 {
+		font-size: 75%;
+	}
+	.mobiles h2 {
+		font-size: 100%;
+	}
+
+	.testimonial h1 {
+		font-size: 120%;
+	}
+
+	.testimonial blockquote,
+	.testimonial cite {
+		margin: 2% 1%;
+		font-size: 80%;
+	}
+	.testimonial img {
+		height: 40px;
+		width: auto;
+		margin-left: 20px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.main-nav li {
+		font-size: 80%;
+	}
+
+	.main-nav {
+		float: right;
+	}
+
+	.one {
+		display: flex;
+		flex-direction: column;
+	}
+    .text-box {
+    	font-size: 45%;
+    	top: 45%;
+    }
+
+    .what-do-you {
+    	font-size: 80%;
+    }
+
+    .mobile-cover img {
+    	padding-right: 0px;
+    	height: 155px;
+    	margin-right: 10%;
+    	width: auto;
+    	flex-direction: column;
+    }
+
+    .why-us {
+    	font-size: 80%;
+    }
+	.mobiles img {
+		height: 80px;
+		width: auto;
+		margin-left: 20px;
+	}
+
+	.mobiles h5 {
+		font-size: 70%;
+	}
+	.mobiles h2 {
+		font-size: 90%;
+	}
+
+	.testimonial h1 {
+		font-size: 120%;
+	}
+
+	.testimonial blockquote,
+	.testimonial cite {
+		margin: 2% 1%;
+		font-size: 80%;
+	}
+	.testimonial img {
+		height: 40px;
+		width: auto;
+		margin-left: 20px;
+	}
+	
+}
+
+@media only screen and (max-width: 480px) {
+
+	header {
+		animation: none;
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+	}
+	.one {
+		display: flex;
+		flex-direction: column;
+	}
+    .text-box {
+    	animation: none;
+    	font-size: 45%;
+    	top: 65%;
+    }
+
+    .mobile-cover img {
+    	padding-right: 60px;
+    	height: 150px;
+    	margin-right: 20%;
+    	margin-top: 0;
+    	width: auto;
+    	flex-direction: column;
+    }
+	.mobiles img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		height: 140px;
+		width: auto;
+	}
+
+	.mobiles h5 {
+		text-align: center;
+	}
+
+	.testimonial h1 {
+		font-size: 120%;
+	}
+
+	.testimonial blockquote,
+	.testimonial cite {
+		font-size: 80%;
+	}
+	.testimonial img {
+		height: 40px;
+		width: auto;
+		margin-left: 50px;
+	}
+
+
+	.toggle-button .btn {
+		display: flex;
+	}
+	.main-nav li {
+		display: none;
+	}
+
+
+
+
+
+
+
+}

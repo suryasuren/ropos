@@ -1,0 +1,349 @@
+/*-------------------------*/
+/*--- STARTING SET UP FOR DESIGN ---*/
+/*-------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background-color: #fff;
+	color: #000;
+    font-family: 'Lato', 'Arial', 'sans-serif';
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+
+header {
+	background-attachment: fixed;
+	background-color: #ecf0f1;
+	height: 95vh;
+	width: auto;
+	background-size: cover;
+	background-position: center;
+	border-bottom: 1px solid #dfe6e9;
+}
+
+.logo img {
+	height: 65px;
+	width: auto;
+	margin-top: 2px;
+	float: left;
+	animation: none;
+}
+
+.main-nav {
+	color: #000;
+}
+
+.main-nav ul {
+	margin-top: 20px;
+	float: right;
+	margin-right: 20px;
+	display: flex;
+}
+
+.main-nav li {
+	cursor: pointer;
+	display: inline-block;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-right: 10px;
+	float: right;
+	color: #000;
+	padding-bottom: 7px;
+	border-bottom: 3px solid transparent;
+	transition: border-bottom 1s;
+}
+
+.main-nav li:hover,
+.main-nav li:active {
+    border-color: #7f8c8d;
+}
+
+.toggle-button {
+	position: absolute;
+	top: .75rem;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 21px;
+	width: 31px;
+}
+
+.toggle-button .btn {
+	height: 3px;
+	width: 100%;
+	border-radius: 10px;
+}
+
+h1 {
+	margin: 0;
+}
+
+.text-box {
+	position: absolute;
+	width: auto;
+	top: 40%;
+	left: 10%;
+	cursor: default;
+}
+
+.mobile-cover img {
+	height: 60vh;
+	width: auto;
+    margin-right: 10%;
+	float: right;
+	margin-top: 3%;
+	padding-right: 30px;
+	display: flex;
+	position: relative;
+	animation: slide 2s ease;
+}
+
+@keyframes slide {
+	0% {
+		opacity: 0;
+		transform: translateX(135px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+.text-box h1 , h5 {
+	color: #000;
+	font-weight: bold;
+	animation: drop 3s ease;
+}
+
+@keyframes drop {
+	0% {
+		opacity: 0;
+		transform: translateY(-120px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+.text-box h5 {
+	margin-left: 175px;
+	margin-bottom: 30px;
+}
+
+.text-box a:link,
+.text-box a:visited {
+	border: 2px solid black;
+	padding: 10px 15px;
+	border-radius: 20px;
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #fff;
+	transition: background-color 0.5s, border 1s, color 1s;
+}
+
+.text-box a:hover,
+.text-box a:active {
+	background-color: #000;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+/*--- WHY US SECTION ---*/
+
+.why-us {
+	background-color: #fff;
+	margin: 40px auto;
+}
+
+.why-us h2 {
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+
+.why-us .box {
+	margin: 25px 25px;
+	border-radius: 8px;
+	transition: background-color 0.8s;
+
+}
+
+.why-us .box:hover {
+	background-color: #f1f2f6;
+}
+
+.why-us i {
+	margin: 10px auto;
+	padding-left: 50px;
+	color: #57606f;
+}
+
+.why-us h4 {
+	margin-bottom: 10px;
+	padding-left: 15px;
+}
+
+.why-us p {
+	padding-bottom: 10px;
+	padding-left: 15px;
+	font-weight: 400;
+}
+
+
+/*--- MOBILE AVAILIABLE SECTION ---*/
+
+.mobiles {
+	margin-top: 35px;
+	margin-bottom: 50px;
+}
+
+.mobiles h2 {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.mobiles img {
+	display: flex;
+	height: 150px;
+	width: auto;
+	padding-bottom: 15px;
+	margin-left: 45px;
+}
+
+.mobiles h5,
+.mobiles a {
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	animation: none;
+}
+
+.mobiles h5:hover {
+	color: blue;
+}
+
+.mobiles .box {
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+.mobiles .row {
+	width: 95%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+/*--- WHAT DO YOU SECTION ---*/
+
+.what-do-you {
+	background-color: #fff;
+	margin: 30px auto;
+}
+
+.what-do-you h2 {
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+.what-do-you i {
+	margin-left: 20px;
+	margin-top: 15px;
+	margin-bottom: 8px;
+}
+
+.what-do-you .box {
+	background-color: #fff;
+	box-shadow: 1px 1px 4px #000;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	transition: background-color 0.7s;
+}
+
+.what-do-you .box:hover {
+	background-color: #f1f2f6;
+}
+
+.what-do-you a {
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.what-do-you .row {
+	margin: 0px auto;
+	padding: 0px 2%;
+}
+
+/*--- TESTIMONIALS ---*/
+
+.testimonial {
+	background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url(image/bg2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	
+}
+
+
+.testimonial h1 {
+	margin-top: 20px;
+	text-align: center;
+}
+
+blockquote {
+	margin-top: 30px;
+	padding: 2%;
+	font-style: italic;
+	line-height: 145%;
+	position: relative;
+}
+
+cite {
+	font-size: 90%;
+	margin-top: 25px;
+	display: block;
+}
+
+blockquote:before {
+	content: "\201C";
+	font-size: 300%;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -3px;
+}
+
+
+
+
+cite img {
+	height: 60px;
+	width: auto;
+	border-radius: 50%;
+	margin-right: 10%; 
+	vertical-align: middle;
+}
+
+/*-- FOOTER ---*/
+
